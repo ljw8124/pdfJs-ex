@@ -1,0 +1,27 @@
+<div data-base="AView" data-class="TabItemView03" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ALabel&quot;,&quot;ACanvas&quot;]}" data-browser-width="600" data-max-aview="1" id="TabItemView03--TabItemView03">
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: auto; position: absolute; left: 0px; justify-content: space-between; top: 0px; align-items: center; padding-top: 5px;" id="TabItemView03--headerView">
+        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 30px; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255); white-space: normal; vertical-align: baseline; width: 200px;">
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; position: relative; top: 0px; font-size: 16px; margin-top: 0px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); border-radius: 10px; height: 30px; margin-left: 20px;" id="TabItemView03--prevBtn" data-listener-click="TabItemView03:onPrevBtnClick">Prev</button>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 30px; position: relative; top: 0px; font-size: 16px; margin-left: 10px; border-width: 1px; border-color: rgb(0, 0, 0); border-radius: 10px; border-style: solid;" id="TabItemView03--nextBtn" data-listener-click="TabItemView03:onNextBtnClick">Next</button>
+            </div>
+        </div>
+        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 20px; position: relative; text-align: center; background-color: rgb(255, 255, 255); left: 0px; top: 0px;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 16px;">Page : </label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 16px; margin-left: 10px;" id="TabItemView03--currentNum">0</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 16px; margin-left: 10px; margin-top: 0px;" id="TabItemView03--totalNum">/ 0</label>
+            </div>
+        </div>
+        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 200px; height: auto; position: relative; background-color: rgb(255, 255, 255); left: 0px; top: 0px; padding-right: 40px; margin-left: 0px; text-align: right;">
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 20px; position: relative; font-size: 16px; margin-top: 0px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); border-radius: 100px; height: 20px; display: inline-block;" data-listener-click="TabItemView03:decreaseScale" id="TabItemView03--zoomOut">-</button>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 50px; height: auto; position: relative; margin-left: 10px; font-size: 20px; margin-top: 0px;" id="TabItemView03--scaleSize">100</label>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="position: relative; font-size: 16px; margin-top: 0px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); border-radius: 100px; height: 20px; width: 20px; margin-left: 10px; left: 0px; text-align: center;" id="TabItemView03--zoomIn" data-listener-click="TabItemView03:increaseScale">+</button>
+            </div>
+        </div>
+    </div>
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: calc((100% - 40px) - 0px); position: absolute; left: 0px; top: 40px; background-color: rgb(205, 205, 205); overflow: auto; text-align: center; padding-top: 5px; padding-bottom: 5px; z-index: 0; backface-visibility: hidden;" data-sgap-height="1" id="TabItemView03--pdfViewer">
+        <canvas data-base="ACanvas" data-class="ACanvas" class="ACanvas-Style" style="width: 100%; height: auto; position: relative; overflow: auto; border-color: rgba(0, 0, 0, 0); top: 0px; left: 0px; margin-left: 0px;" width="600" height="726" id="TabItemView03--the_canvas"></canvas>
+    </div>
+</div>
