@@ -1,0 +1,1269 @@
+{
+  "projectName": "CobViewer",
+  "fileTree": {
+    "type": 0,
+    "name": "CobViewer",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": [
+          {
+            "type": 5,
+            "name": "pdf.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          },
+          {
+            "type": 8,
+            "name": "pdf.js.map",
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          },
+          {
+            "type": 5,
+            "name": "pdf.sandbox.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          },
+          {
+            "type": 8,
+            "name": "pdf.sandbox.js.map",
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          },
+          {
+            "type": 2,
+            "name": "Paint.cls",
+            "action": 5,
+            "relType": 1,
+            "path": "Library\\"
+          },
+          {
+            "type": 5,
+            "name": "pdf_viewer.js",
+            "action": 9,
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          },
+          {
+            "type": 8,
+            "name": "pdf_viewer.js.map",
+            "relType": 1,
+            "path": "Assets\\pdfjs\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "CobViewerApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "pdfjs",
+            "children": [
+              {
+                "type": 5,
+                "name": "pdf.worker.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Assets\\pdfjs\\"
+              },
+              {
+                "type": 8,
+                "name": "pdf.worker.js.map",
+                "relType": 1,
+                "path": "Assets\\pdfjs\\"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "pdffiles",
+            "children": [
+              {
+                "type": 8,
+                "name": "helloworld.pdf",
+                "relType": 1,
+                "path": "Assets\\pdffiles\\"
+              },
+              {
+                "type": 8,
+                "name": "compressed.tracemonkey-pldi-09.pdf",
+                "relType": 1,
+                "path": "Assets\\pdffiles\\"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "cmaps",
+            "children": [
+              {
+                "type": 8,
+                "name": "78-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78ms-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "78ms-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "83pv-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90ms-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90ms-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90msp-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90msp-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90pv-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "90pv-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Add-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Add-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Add-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Add-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-0.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-1.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-3.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-4.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-5.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-6.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-CNS1-UCS2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-0.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-1.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-3.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-4.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-5.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-GB1-UCS2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-0.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-1.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-3.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-4.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-5.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-6.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Japan1-UCS2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Korea1-0.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Korea1-1.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Korea1-2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Adobe-Korea1-UCS2.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "B5pc-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "B5pc-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS1-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS1-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS2-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "CNS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETHK-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETHK-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETen-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETen-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETenms-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "ETenms-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Ext-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Ext-RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Ext-RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Ext-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GB-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GB-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GB-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GB-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBK-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBK-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBK2K-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBK2K-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBKp-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBKp-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBT-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBT-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBT-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBT-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBTpc-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBTpc-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBpc-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "GBpc-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKdla-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKdla-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKdlb-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKdlb-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKgccs-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKgccs-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKm314-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKm314-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKm471-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKm471-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKscs-B5-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "HKscs-B5-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Hankaku.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Hiragana.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-Johab-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-Johab-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCms-UHC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCms-UHC-HW-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCms-UHC-HW-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCms-UHC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCpc-EUC-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "KSCpc-EUC-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Katakana.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "LICENSE",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "NWP-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "NWP-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "RKSJ-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "RKSJ-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "Roman.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UCS2-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UCS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF16-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF16-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF8-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniCNS-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UCS2-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UCS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF16-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF16-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF8-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniGB-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UCS2-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UCS2-HW-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UCS2-HW-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UCS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF16-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF16-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF8-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF16-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF16-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF8-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJIS2004-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISPro-UCS2-HW-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISPro-UCS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISPro-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISX0213-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISX0213-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISX02132004-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniJISX02132004-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UCS2-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UCS2-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF16-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF16-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF32-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF32-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF8-H.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "UniKS-UTF8-V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "V.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              },
+              {
+                "type": 8,
+                "name": "WP-Symbol.bcmap",
+                "relType": 1,
+                "path": "Assets\\cmaps\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 2,
+            "name": "CobViewerApp.cls",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 2,
+            "name": "MainView.cls",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 1,
+            "name": "tabs",
+            "children": [
+              {
+                "type": 5,
+                "name": "TabItemView01.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "TabItemView01.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "TabItemView02.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "TabItemView02.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "TabItemView03.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\tabs\\"
+              },
+              {
+                "type": 3,
+                "name": "TabItemView03.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "TabItemView04.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\tabs\\\\"
+              },
+              {
+                "type": 3,
+                "name": "TabItemView04.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              },
+              {
+                "type": 5,
+                "name": "TabItemView05.js",
+                "action": 9,
+                "relType": 1,
+                "path": "Source\\tabs\\\\"
+              },
+              {
+                "type": 3,
+                "name": "TabItemView05.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\tabs\\",
+                "comment": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.2.9"
+}
