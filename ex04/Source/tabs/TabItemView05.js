@@ -303,7 +303,7 @@ class TabItemView05 extends AView
 				this.l10n = pdfjsViewer.NullL10n;
 				
 				const container = thisObj.content.$ele;
-				const pdfViewer = new pdfjsViewer.PDFViewer({
+				const pdfViewer = new pdfjsViewer.PDFViewer({	//버전오류 발생
 					container,
 					eventBus,
 					linkService,
